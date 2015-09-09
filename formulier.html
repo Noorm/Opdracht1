@@ -26,7 +26,7 @@ Voor vragen of opmerkingen kunt u contact <a href="http://intra.iam.hva.nl/conte
         <fieldset>
             <legend>Contactgegevens</legend>
                 <label for="naam">Naam</label>
-                <input type="text" name="naam" required>
+                <input type="text" name="naam" required >
                 <label for="bedrijf">Bedrijf</label>
                 <input type="text" name="bedrijf">
                 <label for="adres">Adres</label>
@@ -45,9 +45,10 @@ Voor vragen of opmerkingen kunt u contact <a href="http://intra.iam.hva.nl/conte
 
 
         <br>
-        <label for="project">Ik wil mij aanmelden:</label>
-        <input type="radio" name="aanmelden" value="" checked>Voor een project
-        <input type="radio" name="aanmelden" value="">Als bedrijf
+        <label for="project">Ik wil mij aanmelden:
+            <input type="radio" name="aanmelden" value="" checked>Voor een project
+            <input type="radio" name="aanmelden" value="">Als bedrijf
+        </label>
         <br><br>
 
 
@@ -57,6 +58,7 @@ Voor vragen of opmerkingen kunt u contact <a href="http://intra.iam.hva.nl/conte
             <legend>Project</legend>
                 <label for="Titel">Titel</label>
                 <input type="text" name="titel">
+
                 <label for="Opdrachtomschrijving">Opdrachtomschrijving</label>
                 <input type="text" name="opdrachtomschrijving">
                 <label for="Doelgroepomschrijving">Doelgroepomschrijving</label>
@@ -68,8 +70,8 @@ Voor vragen of opmerkingen kunt u contact <a href="http://intra.iam.hva.nl/conte
                 <label for="Deadline">Deadline</label>
                 <input type="date">
 
-            <label for="geschikt voor">Geschikt voor</label>
-            <select name="Geschikt voor">
+            <label for="geschiktvoor">Geschikt voor</label>
+            <select name="Geschiktvoor" id="geschiktvoor">
                 <option value="eerste">Eerstejaarsstudenten</option>
                 <option value="tweede">Tweedejaarsstudenten</option>
                 <option value="derde">Derdejaarsstudenten</option>
@@ -78,7 +80,7 @@ Voor vragen of opmerkingen kunt u contact <a href="http://intra.iam.hva.nl/conte
             </select>
 
                 <label for="opmerking">Opmerking</label>
-                <input type="text" name="opmerking">
+                <input type="text" name="opmerking" id="opmerking">
         </fieldset>
 
 
@@ -86,8 +88,8 @@ Voor vragen of opmerkingen kunt u contact <a href="http://intra.iam.hva.nl/conte
         <fieldset>
             <legend>Stage</legend>
 
-                <label for="geschikt voor">Geschikt voor</label>
-                <select name="Geschikt voor">
+                <label for="geschiktvoor">Geschikt voor</label>
+                <select name="Geschiktvoor">
                     <option value="tweede">Tweedejaarsstudenten</option>
                     <option value="vierde">Afstudeerstudenten</option>
                     <option value="onbekend">Onbekend</option>
