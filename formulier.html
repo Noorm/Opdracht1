@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulier</title>
+
+    <!-- stylesheets -->
+    <link href="CSS/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <h1>Aanmelden</h1>
+    <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!!
+Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+
+    <em>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.!</em>
+
+    <p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. !
+Voor vragen of opmerkingen kunt u contact <a href="http://intra.iam.hva.nl/content/algemeen/studieprogramma/">contact</a> met ons op.!</p>
+
+
+
+
+    <form>
+        <fieldset>
+            <legend>Contactgegevens</legend>
+                <label for="naam">Naam</label>
+                <input type="text" name="naam" required>
+                <label for="bedrijf">Bedrijf</label>
+                <input type="text" name="bedrijf">
+                <label for="adres">Adres</label>
+                <input type="text" name="adres">
+                <label for="postcode">Postcode</label>
+                <input type="text" name="postcode">
+                <label for="plaats">Plaats</label>
+                <input type="text" name="plaats">
+                <label for="telefoon">Telefoon</label>
+                <input type="text" name="telefoon">
+                <label for="email">Email</label>
+                <input type="text" name="email">
+        </fieldset>
+
+
+
+
+        <br>
+        <label for="project">Ik wil mij aanmelden:</label>
+        <input type="radio" name="aanmelden" value="" checked>Voor een project
+        <input type="radio" name="aanmelden" value="">Als bedrijf
+        <br><br>
+
+
+
+
+        <fieldset>
+            <legend>Project</legend>
+                <label for="Titel">Titel</label>
+                <input type="text" name="titel">
+                <label for="Opdrachtomschrijving">Opdrachtomschrijving</label>
+                <input type="text" name="opdrachtomschrijving">
+                <label for="Doelgroepomschrijving">Doelgroepomschrijving</label>
+                <input type="text" name="doelgroep">
+                <label for="Doelstelling/intentievanhetproject">Doelstelling/intentievanhetproject</label>
+                <input type="text" name="doelstelling/intentievanhetproject">
+                <label for="looptijd">Looptijd</label>
+                <input type="time">
+                <label for="Deadline">Deadline</label>
+                <input type="date">
+
+            <label for="geschikt voor">Geschikt voor</label>
+            <select name="Geschikt voor">
+                <option value="eerste">Eerstejaarsstudenten</option>
+                <option value="tweede">Tweedejaarsstudenten</option>
+                <option value="derde">Derdejaarsstudenten</option>
+                <option value="vierde">Afstudeerstudenten</option>
+                <option value="onbekend">Onbekend</option>
+            </select>
+
+                <label for="opmerking">Opmerking</label>
+                <input type="text" name="opmerking">
+        </fieldset>
+
+
+
+        <fieldset>
+            <legend>Stage</legend>
+
+                <label for="geschikt voor">Geschikt voor</label>
+                <select name="Geschikt voor">
+                    <option value="tweede">Tweedejaarsstudenten</option>
+                    <option value="vierde">Afstudeerstudenten</option>
+                    <option value="onbekend">Onbekend</option>
+                </select><br><br>
+
+                <label for="date">Hoe lang is de stage?</label>
+                <input type="radio" name="stage" value="" checked>10 weken
+                <input type="radio" name="stage" value="">20 weken
+                <br><br>
+
+                <label for="date">Begin datum</label>
+                <input type="date">
+
+                <label for="date">Beschrijvingstagewerkzaamheden:</label>
+                <input type="text" name="naam">
+                <label for="date">Bedrijfsnaam:</label>
+                <input type="text" name="bedrijf">
+                <label for="date">Adres:</label>
+                <input type="text" name="adres">
+                <label for="date">Postcode:</label>
+                <input type="text" name="postcode">
+                <label for="date">Plaats:</label>
+                <input type="text" name="plaats">
+                <label for="date">Sector:</label>
+                <input type="text" name="sector">
+                <label for="date">Core business:</label>
+                <input type="text" name="Core business">
+
+                <label for="opmerking">Opmerking</label>
+                <input type="text" name="opmerking">
+
+        </fieldset>
+
+                <input type="submit" value="Submit">
+
+    </form>
+
+
+</body>
+</html>
