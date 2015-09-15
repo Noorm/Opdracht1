@@ -1,5 +1,17 @@
+/*h1, h2, h3{
+    color: #000;
+    background: linear-gradient(9deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+    line-height: 35px;
+    width: 450px;
+    border-radius: 200px 0px / 200px 0px
+}
+
+em{
+    text-shadow: 0px -10px 1px rgb(0, 0, 255);
+}*/
+
 form label{
     float: none;
-    clear:both;
-    display:block;
+    clear: both;
+    display: block;
 }
